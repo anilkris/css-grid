@@ -1,0 +1,21 @@
+.catwrapper {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    /*
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    */
+
+    grid-gap: 1em;
+
+
+}
+
+.catwrapper > div {
+
+    background: #eee;
+}
+
+.catwrapper > div:nth-child(odd) {
+    background: #ccc;
+}
